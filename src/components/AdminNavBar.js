@@ -1,6 +1,6 @@
 import React from "react";
 
-function AdminNavBar({ onChangePage }) {
+function AdminNavBar({ onChangePage}) {
   return (
     <nav>
       <button onClick={() => onChangePage("Form")}>New Question</button>
